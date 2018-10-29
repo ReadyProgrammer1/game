@@ -1,0 +1,114 @@
+.banner {
+  background-color: rgb(0, 0, 0);
+  background-image: linear-gradient(180deg, rgb(0, 0, 0),rgb(0, 0, 0),rgb(0, 0, 0),rgb(0, 0, 0),rgb(5, 5, 5),rgb(5, 5, 5),rgb(15, 15, 15));
+  height: 100vh;
+  width: 100vw;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.color-container {
+  display: table;
+  margin-top: 20px;
+  background-color: black;
+  padding: 10px;
+}
+
+.colorpack {
+  /*outline: 1px solid #ccc; */
+  padding: 5px; 
+  margin: 5px; 
+  border-radius: 10%;
+  background-color: lightgrey;
+}
+
+.color-image {
+  height: 120px;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.colorpack-1:hover {
+  cursor: pointer;
+  overflow: visible;
+    box-shadow:
+      0px 0px 30px white,
+      0px 0px 30px white,
+      0px 0px 30px white,
+      0px 0px 30px white,
+      0px 0px 55px blue,
+      0px 0px 75px blue,
+      0px 0px 95px blue
+        !important;
+    transform: scale(1.1,1.1) translateY(-5px);
+    transition: box-shadow .5s ease scale(2) !important;
+    transition-duration: .5s;
+}
+
+.colorpack-2:hover {
+  cursor: pointer;
+  overflow: visible;
+    box-shadow:
+        0px 0px 30px white,
+        0px 0px 30px white,
+        0px 0px 30px white,
+        0px 0px 30px white,
+        0px 0px 55px orange,
+        0px 0px 75px orange,
+        0px 0px 95px orange
+        !important;
+    transform: scale(1.1,1.1) translateY(-5px);
+    transition: box-shadow .5s ease scale(2) !important;
+    transition-duration: .5s;
+}
+
+.colorpack-3:hover {
+  cursor: pointer;
+  overflow: visible;
+    box-shadow:
+        0px 0px 30px white,
+        0px 0px 30px white,
+        0px 0px 30px white,
+        0px 0px 30px white,
+        0px 0px 55px red,
+        0px 0px 75px red,
+        0px 0px 95px red
+        !important;
+    transform: scale(1.1,1.1) translateY(-5px);
+    transition: box-shadow .5s ease scale(2) !important;
+    transition-duration: .5s;
+}
+
+.colorpack-4:hover {
+  cursor: pointer;
+  overflow: visible;
+    box-shadow:
+        0px 0px 30px white,
+        0px 0px 30px white,
+        0px 0px 30px white,
+        0px 0px 30px white,
+        0px 0px 55px #7FFF00,
+        0px 0px 75px #7FFF00,
+        0px 0px 95px #7FFF00
+        !important;
+    transform: scale(1.1,1.1) translateY(-5px);
+    transition: box-shadow .5s ease scale(2) !important;
+    transition-duration: .5s;
+}
+
+.colorpack-5:hover {
+  cursor: pointer;
+  overflow: visible;
+    box-shadow:
+        0px 0px 30px white,
+        0px 0px 30px white,
+        0px 0px 30px white,
+        0px 0px 30px white,
+        0px 0px 55px rgb(30, 117, 187),
+        0px 0px 75px rgb(30, 117, 187),
+        0px 0px 95px rgb(30, 117, 187)
+        !important;
+    transform: scale(1.1,1.1) translateY(-5px);
+    transition: box-shadow .5s ease scale(2) !important;
+    transition-duration: .5s;
+}
